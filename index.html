@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แอปโน้ตส่วนตัว</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>แอปโน้ตส่วนตัว 📝</h1>
+
+    <textarea id="noteInput" placeholder="เขียนโน้ตของคุณที่นี่..."></textarea>
+    <br>
+    <button onclick="saveNote()">บันทึก</button>
+    <button onclick="clearNotes()">ลบทั้งหมด</button>
+
+    <h2>โน้ตที่บันทึกไว้</h2>
+    <ul id="noteList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
